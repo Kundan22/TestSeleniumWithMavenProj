@@ -34,7 +34,7 @@ public class LoginStep extends BaseUtil{
     public void iNavigateToTheLoginPage() throws Throwable {
 
         System.out.println("Navigate Login Page");
-        base.Driver.navigate().to("http://www.executeautomation.com/demosite/Login.html");
+        base.Driver.navigate().to("http://localhost:9090/login");
     }
 
 
